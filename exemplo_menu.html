@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo menu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       body{
+        background-color: beige;
+       } 
+       #menu{
+        background-color: black;
+        border-radius: 15px;
+        position: absolute;
+        align-content: center;
+        left: 40%;
+        
+       }
+       #menu ul {
+        list-style: none;
+       }
+       #menu ul li{
+        display: inline;
+        
+       }
+       #menu ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        display: inline-block;
+       }
+       #menu ul li a:hover {
+        background-color: blue;
+        transition:0.4s all;
+        border-radius: 15px;
+       }
+    </style>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
